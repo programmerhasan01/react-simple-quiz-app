@@ -1,0 +1,9 @@
+.correctAnswer {
+  border: 2px solid green;
+}
+.inCorrectAnswer {
+  border: 2px solid red;
+}
+.disabledAnswer {
+  pointer-events: none;
+}

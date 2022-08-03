@@ -1,0 +1,30 @@
+.answer {
+  width: 100%;
+  background: #3498db;
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 4px;
+  color: #fff;
+  list-style: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: all linear 0.2s;
+}
+
+.answer:hover {
+  background: #3cb0fd;
+}
+
+.navigateNext {
+  display: block;
+  margin: auto;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: 3px;
+}
+
+.navigateNext:hover .fa-solid {
+  transition: all linear 0.3s;
+  transform: translate(10px);
+}

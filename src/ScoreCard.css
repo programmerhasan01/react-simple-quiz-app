@@ -1,0 +1,33 @@
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.result h3 {
+  font-size: 1.5rem;
+  font-family: cursive;
+  color: rgb(128, 92, 92);
+  padding: 0;
+}
+
+.result p {
+  margin: 25px 0 45px;
+  border: 2px solid #3498db;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-family: cursive;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.resetBtn {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #3498db;
+}
